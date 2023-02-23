@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,12 +15,55 @@
           }
         }
       </style> -->
+      <style>
+        body{
+            background-color: rgb(0, 0, 0);
+            color: white
+        }
+        code{
+            color: greenyellow;
+        }
+        h1{
+            text-align: center;
+            color: rgba(212, 43, 43, 0.884);
+        }
+      </style>
 </head>
+
 <body>
-    <h1>Git Branch  and Merge</h1>
-    <h6>Git Branch = membuat branch baru</h6>
-    <code> git branch (nama-branch)</code>
-    <h6>Melihat semua branch yang ada</h6>
-    <code>git branch</code>
+    <ol>
+        <h1>Git Branch and Merge</h1>
+        <li>
+            <h4>membuat branch baru</h4>
+            <code> git branch (nama-branch)</code>
+        </li>
+        <LI>
+            <h4>Melihat semua branch yang ada</h4>
+            <code>git branch</code>
+        </LI>
+        <li> 
+            <h4>
+            Melihat semua perubahan yang ada di git
+            </h4>
+            <code>git log --all --decorate --online --graph</code>
+        </li>
+        <li>
+            <h4>
+                create alias (untuk menyimpan perintah ke nama perintah yang baru)</li>
+            </h4>
+            <code>
+                alias init="git init"
+            </code>
+            <li>
+                <h4>masuk ke branch</h4>
+                <code>
+                    git checkout (nama-branch)
+                </code>
+            </li>
+    </ol>
+
+
+
 </body>
+
 </html>
