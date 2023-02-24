@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com">
+    </script>
+</head>
+<body>
+    <!-- component -->
+<div class='flex justify-center pt-10 min-w-screen min-h-[480px] bg-gray-800'>
+	<input type='checkbox' class=' bg-red-400 h-16 w-16 rounded-[100%] cursor-pointer 
+        appearance-none peer z-20 checked:opacity-50  transition-all duration-300 
+        checked:mt-1 checked:h-8 checked:w-8
+    '>
+	<div class="absolute h-16 w-16 bg-gray-100 rounded-[100%]  opacity-0 transition-all duration-200
+        peer-checked:rounded-[2%] peer-checked:h-96 peer-checked:w-80 peer-checked:opacity-100 peer-checked:visible
+        flex flex-col px-3 pt-12 invisible
+    ">
+		<div class='flex flex-col gap-3'>
+			<div class='w-full h-12 bg-gray-500 rounded-xl flex justify-center items-center cursor-pointer text-white font-bold'>Eat Two
+				Banana
+			</div>
+			<div class='w-full h-12 bg-green-300 rounded-xl flex justify-center items-center cursor-pointer font-bold '>Eat One
+				Bananas
+			</div>
+			<div class='w-full h-12 bg-gray-500 rounded-xl flex justify-center items-center cursor-pointer text-white font-bold'>Eat One
+				Apple
+			</div>
+			<div class='w-full h-12 bg-gray-500 rounded-xl flex justify-center items-center cursor-pointer text-white font-bold'>Eat Two
+				Apples
+			</div>
+			<div class='w-full h-12 bg-green-300 rounded-xl flex justify-center items-center cursor-pointer  font-bold'>Eat Five
+				Apples
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>
